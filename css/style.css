@@ -208,3 +208,20 @@ section{position:relative}
   .gallery .thumbs{grid-template-columns:repeat(3,1fr)}
   .page-hero h1{font-size:25px}
 }
+
+/* ===== 함께하는 사람들 — 구성원 프로필 ===== */
+.staff{max-width:1000px;margin:0 auto;display:grid;gap:26px}
+.member{display:grid;grid-template-columns:230px 1fr;gap:40px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:18px;padding:32px 40px;box-shadow:0 10px 30px rgba(20,60,110,.06)}
+.member .photo img{width:100%;border-radius:14px;aspect-ratio:3/4;object-fit:cover;object-position:top;background:#eef2f7;box-shadow:0 8px 22px rgba(20,60,110,.13)}
+.member .bio .role{color:var(--blue);font-weight:700;font-size:14px}
+.member .bio h3{font-size:24px;color:var(--ink);font-weight:800;margin:3px 0 18px;display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.member .bio .badge{font-size:12px;font-weight:700;color:#fff;background:var(--blue);padding:3px 12px;border-radius:30px}
+.member .bio ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:9px 26px}
+.member .bio li{position:relative;padding-left:15px;color:var(--body);font-size:14.5px;line-height:1.5}
+.member .bio li::before{content:"";position:absolute;left:0;top:8px;width:5px;height:5px;border-radius:50%;background:var(--blue)}
+@media (max-width:760px){
+  .member{grid-template-columns:1fr;gap:20px;padding:26px 22px;text-align:center}
+  .member .photo{max-width:188px;margin:0 auto}
+  .member .bio h3{justify-content:center}
+  .member .bio ul{grid-template-columns:1fr;text-align:left;max-width:330px;margin:0 auto;gap:7px}
+}
