@@ -225,3 +225,21 @@ section{position:relative}
   .member .bio h3{justify-content:center}
   .member .bio ul{grid-template-columns:1fr;text-align:left;max-width:330px;margin:0 auto;gap:7px}
 }
+
+/* ===== 오시는길 — 지점 카드 ===== */
+.branches{max-width:1040px;margin:0 auto 50px;display:grid;gap:28px}
+.branch{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 10px 30px rgba(20,60,110,.06)}
+.branch-head{display:flex;align-items:center;gap:10px;padding:22px 28px 16px}
+.branch-head h3{font-size:21px;color:var(--ink);font-weight:800}
+.branch-head .badge{font-size:12px;font-weight:700;color:#fff;background:var(--blue);padding:3px 12px;border-radius:30px}
+.branch-body{display:grid;grid-template-columns:1.25fr 1fr}
+.branch .map{background:#eef2f7}
+.branch .map iframe,.branch .map img{width:100%;height:100%;min-height:300px;border:0;display:block;object-fit:cover}
+.branch-info{padding:26px 30px;display:flex;flex-direction:column;justify-content:center;gap:16px}
+.branch-info .addr{color:var(--ink);font-size:15.5px;line-height:1.75;font-weight:500}
+.branch-info .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+@media (max-width:760px){
+  .branch-body{grid-template-columns:1fr}
+  .branch .map iframe,.branch .map img{min-height:220px}
+  .branch-info{padding:22px 24px}
+}
