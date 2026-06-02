@@ -243,3 +243,8 @@ section{position:relative}
   .branch .map iframe,.branch .map img{min-height:220px}
   .branch-info{padding:22px 24px}
 }
+.bus-info{background:var(--bg-soft);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.bus-info .bus-title{font-weight:700;color:var(--blue);font-size:15px;margin-bottom:7px}
+.bus-info p{color:var(--body);font-size:14px;line-height:1.65;margin:0}
+.bus-info p b{color:var(--ink);font-weight:700}
+.bus-info .bus-note{color:var(--muted);font-size:12.5px;margin-top:7px}
