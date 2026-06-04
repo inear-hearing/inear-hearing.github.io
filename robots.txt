@@ -4,4 +4,4 @@ Allow: /
 User-agent: Yeti
 Allow: /
 
-Sitemap: https://inear-hearing.github.io/guiinhearing/sitemap.xml
+Sitemap: https://inear-hearing.github.io/sitemap.xml
