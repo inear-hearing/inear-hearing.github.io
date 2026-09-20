@@ -24,3 +24,4 @@
 - 둘러보기(센터 사진): https://inear-hearing.github.io/tour.html
 - 진료시간 & 오시는길: https://inear-hearing.github.io/location.html
 - 문의/예약: https://inear-hearing.github.io/contact.html
+- English site: https://inear-hearing.github.io/en/
