@@ -6,7 +6,12 @@
 <meta name="robots" content="noindex">
 <title>페이지를 찾을 수 없습니다 | 귀인보청기 청각재활센터</title>
 <link rel="icon" href="/images/logo.png">
-<link rel="stylesheet" href="/css/style.css?v=6">
+<link rel="stylesheet" href="/css/style.css?v=7">
+<script>
+/* 끝에 / 가 붙은 옛 주소(/tour/, /en/contact/ 등)를 .html 페이지로 자동 이동 */
+(function(){var m=location.pathname.match(/^\/(en\/)?(location|tour|director|contact|privacy|terms)\/?(index\.html)?$/);
+if(m){location.replace("/"+(m[1]||"")+m[2]+".html"+location.search+location.hash);}})();
+</script>
 </head>
 <body>
 
@@ -17,7 +22,7 @@
       <a href="/">귀인보청기 소개</a>
       <a href="/director.html">함께하는 사람들</a>
       <a href="/tour.html">둘러보기</a>
-      <a href="/location.html">진료시간 &amp; 오시는길</a>
+      <a href="/location.html">운영시간 &amp; 오시는길</a>
       <a href="/contact.html" class="tel">문의 : 010-6599-0109</a>
     </nav>
   </div>
