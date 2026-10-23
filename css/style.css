@@ -266,3 +266,8 @@ section{position:relative}
 /* 언어 전환(EN/한국어) 버튼 */
 .gnb a.lang{border:1.5px solid var(--line);border-radius:20px;padding:5px 13px;font-size:13px;color:var(--muted)}
 .gnb a.lang:hover{border-color:var(--blue);color:var(--blue)}
+
+/* 2026-10-23 메뉴 7개(보청기 안내 추가): 좁은 데스크톱 폭에서 로고가 찌그러지지 않게 */
+.logo{flex-shrink:0}
+@media (min-width:901px) and (max-width:1199px){.gnb{gap:18px}.gnb a{font-size:14.5px}}
+@media (min-width:901px) and (max-width:1020px){.gnb{gap:12px}.gnb a{font-size:13.5px}}

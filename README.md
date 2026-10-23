@@ -5,6 +5,7 @@ GitHub Pages 무료 호스팅용. 별도 빌드 없이 그대로 배포됩니다
 
 ## 구성
 - `index.html` 소개(홈) / `director.html` 함께하는 사람들 / `tour.html` 둘러보기 / `location.html` 운영시간·오시는길 / `contact.html` 문의
+- `guide/` 보청기 안내(정보 글 5편) / `en/` 영어판(`en/guide/` 포함)
 - `css/style.css`, `js/main.js`, `images/`
 
 ## 정보

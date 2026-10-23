@@ -1,6 +1,6 @@
 # 귀인보청기 청각재활센터
 
-> 경남 창원 진해와 부산 명지에 있는 보청기 전문 청각재활센터. 전문 청각사의 1:1 맞춤 상담·피팅, 보청기 정부지원(청각장애 등록 시 5년에 1회·1대당 최대 131만 원) 전 과정 안내, 구입 후 정기 점검·사후관리를 안내합니다.
+> 경남 창원 진해와 부산 명지에 있는 보청기 전문 청각재활센터. 전문 청각사의 1:1 맞춤 상담·피팅, 보청기 건강보험 지원(청각장애 등록자 대상 장애인보조기기 급여) 구입·검수·청구 서류 안내, 구입 후 정기 점검·사후관리를 안내합니다.
 
 ## 기본 정보
 - 상호: 주식회사 귀인 보청기 (대표 이성행)
@@ -17,6 +17,23 @@
 
 ## 청각사
 - 이성행(대표), 윤동후, 윤나영 — 모두 대한 이비인후과 청각학회 인증 청각사
+
+## 보청기 건강보험 지원 기준 (국민건강보험공단 공개 기준, 2026-10 확인)
+- 대상: 장애인복지법에 따라 등록된 청각장애인인 건강보험 가입자·피부양자. 이비인후과 전문의 처방, 공단 등록 업소에서 구입.
+- 금액: 보청기 기준액 1,310,000원, 내구연한 5년. 공단 부담금액은 기준액과 구입금액 중 낮은 금액의 90%(차상위 본인부담경감 대상자 등은 100%). 예: 구입금액이 131만 원 이상이면 일반 가입자 1,179,000원.
+- 횟수: 같은 보조기기는 내구연한 안에 1인당 1회.
+- 기한: 처방전 발행일로부터 6개월 이내 구입분만 급여. 착용 1개월 이후 처방 전문의 검수(음장검사). 구입 후 1년이 지난 때부터 매년 1회 이상 후기적합관리 급여 가능.
+- 의료급여·산재 등은 기준이 다를 수 있음. 개인별 금액은 국민건강보험공단 1577-1000(외국어 033-811-2000).
+- 출처: https://www.nhis.or.kr/nhis/policy/wbhada10900m01.do (공단 부담금액), https://www.nhis.or.kr/nhis/policy/wbhada11900m01.do (보청기 지급기준), https://www.nhis.or.kr/static/html/wbma/c/wbmac0206_3.html (기준액·내구연한)
+
+## 보청기 안내 (정보 글)
+- 보청기 안내 목록: https://inear-hearing.github.io/guide/
+- 보청기 지원금 받는 순서 5단계와 청구 서류: https://inear-hearing.github.io/guide/hearing-aid-subsidy.html
+- 보청기 처방전 6개월 기한, 날짜 계산법: https://inear-hearing.github.io/guide/prescription-6-months.html
+- 귓속형 보청기 상담 전 체크리스트: https://inear-hearing.github.io/guide/in-the-ear-hearing-aids.html
+- 보청기 소리가 작아졌을 때 집에서 확인할 5가지: https://inear-hearing.github.io/guide/quiet-hearing-aid-check.html
+- 보청기 후기적합관리(구입 1년 뒤부터 매년): https://inear-hearing.github.io/guide/annual-follow-up-fitting.html
+- English guides (for foreign residents): https://inear-hearing.github.io/en/guide/
 
 ## 주요 페이지
 - 귀인보청기 소개(홈): https://inear-hearing.github.io/
