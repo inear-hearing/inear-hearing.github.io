@@ -51,7 +51,7 @@
 .g-list img{width:120px;height:120px;border-radius:10px;object-fit:cover}
 .g-list .t{display:block;font-size:17.5px;font-weight:700;color:var(--ink);line-height:1.5}
 .g-list .d{display:block;font-size:14.5px;color:var(--body);line-height:1.7;margin-top:4px}
-.g-list.noimg li a{grid-template-columns:1fr}
+.g-list.noimg li a,.g-list li a.noimg{grid-template-columns:1fr}
 .g-intro{max-width:780px;margin:0 auto 30px;font-size:16.5px;line-height:1.85;color:var(--body)}
 @media (max-width:900px){
   .guide h1{font-size:25px}
@@ -66,3 +66,4 @@
   .g-list .t{font-size:16px}
   .g-list .d{display:none}
 }
+.g-list li a.noimg{grid-template-columns:1fr!important}

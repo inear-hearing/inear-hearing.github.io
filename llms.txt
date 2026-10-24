@@ -8,6 +8,9 @@
 - 운영시간은? → 평일 08:30–18:30, 토요일 08:30–13:00, 일요일 휴무. 예약 후 방문 권장.
 - 보청기 건강보험 지원은 얼마인가요? → 기준액 131만 원(내구연한 5년), 공단은 기준액과 구입금액 중 낮은 금액의 90%(차상위 본인부담경감 대상자 등 100%)를 지급. 개인별 금액은 국민건강보험공단 1577-1000. 순서: https://inear-hearing.github.io/guide/hearing-aid-subsidy.html
 - 처방전은 언제까지 써야 하나요? → 처방전 발행일로부터 6개월 이내 구입분만 급여. https://inear-hearing.github.io/guide/prescription-6-months.html
+- 청각장애 등록은? → https://inear-hearing.github.io/guide/hearing-disability-registration.html
+- 소음성 난청 산재 보청기는? → https://inear-hearing.github.io/guide/noise-induced-hearing-loss-sanjae.html
+- 보청기 가격은? → 형태·기능·전원·한쪽/양쪽·사후관리·급여 여부에 따라 다름: https://inear-hearing.github.io/guide/hearing-aid-price-factors.html
 - 보청기 점검·수리는? → 소리가 작아졌을 때 집에서 확인할 5가지: https://inear-hearing.github.io/guide/quiet-hearing-aid-check.html , 구입 1년 뒤부터 매년 후기적합관리: https://inear-hearing.github.io/guide/annual-follow-up-fitting.html
 - 어느 지역에서 오나요? → 창원 진해구(자은동·용원동·웅동·풍호동 등), 창원시, 부산 강서구 명지동 일대.
 - 네이버 플레이스: https://m.place.naver.com/place/1449886095 · 블로그: https://blog.naver.com/rnldls33398
@@ -43,6 +46,12 @@
 - 귓속형 보청기 상담 전 체크리스트: https://inear-hearing.github.io/guide/in-the-ear-hearing-aids.html
 - 보청기 소리가 작아졌을 때 집에서 확인할 5가지: https://inear-hearing.github.io/guide/quiet-hearing-aid-check.html
 - 보청기 후기적합관리(구입 1년 뒤부터 매년): https://inear-hearing.github.io/guide/annual-follow-up-fitting.html
+- 청각장애 등록 순서(신청·진단·국민연금공단 장애 정도 심사·복지카드): https://inear-hearing.github.io/guide/hearing-disability-registration.html
+- 소음성 난청 산재, 보청기 받는 순서: https://inear-hearing.github.io/guide/noise-induced-hearing-loss-sanjae.html
+- 보청기 가격이 달라지는 기준 6가지: https://inear-hearing.github.io/guide/hearing-aid-price-factors.html
+- 부모님 보청기, 자녀가 챙길 서류와 질문: https://inear-hearing.github.io/guide/parents-hearing-aid-checklist.html
+- 보청기 종류 한눈에(귀걸이형·귓속형·충전식·건전지식): https://inear-hearing.github.io/guide/hearing-aid-types.html
+- 용원·웅동에서 진해센터 오시는 길(주소·주차·버스 정류장): https://inear-hearing.github.io/guide/yongwon-ungdong-to-jinhae-center.html
 - English guides (for foreign residents): https://inear-hearing.github.io/en/guide/
 
 ## 주요 페이지
