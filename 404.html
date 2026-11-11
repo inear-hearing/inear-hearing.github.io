@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex">
 <title>페이지를 찾을 수 없습니다 | 귀인보청기 청각재활센터</title>
 <link rel="icon" href="/images/logo.png">
-<link rel="stylesheet" href="/css/style.css?v=8">
+<link rel="stylesheet" href="/css/style.css?v=9">
 <script>
 /* 끝에 / 가 붙은 옛 주소(/tour/, /en/contact/ 등)를 .html 페이지로 자동 이동 */
 (function(){var m=location.pathname.match(/^\/(en\/)?(location|tour|director|contact|privacy|terms)\/?(index\.html)?$/);
@@ -18,6 +18,7 @@ if(m){location.replace("/"+(m[1]||"")+m[2]+".html"+location.search+location.hash
 <header class="site-header">
   <div class="inner">
     <a class="logo" href="/"><img src="/images/logo.png" alt="귀인 보청기"></a>
+    <button class="nav-toggle" aria-label="메뉴 열기"><span></span><span></span><span></span></button>
     <nav class="gnb">
       <a href="/">귀인보청기 소개</a>
       <a href="/director.html">함께하는 사람들</a>
@@ -47,5 +48,6 @@ if(m){location.replace("/"+(m[1]||"")+m[2]+".html"+location.search+location.hash
     <p class="copy">Copyright ⓒ 2025 귀인보청기 All rights reserved.</p>
   </div>
 </footer>
+<script src="/js/main.js"></script>
 </body>
 </html>
