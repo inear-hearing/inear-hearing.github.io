@@ -180,19 +180,35 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   if (!targets.length) return;
   root.classList.add('anim');
+  var pending = targets.slice();
   var finish = function (el) { el.classList.remove('rv', 'rv-z', 'in'); el.style.transitionDelay = ''; };
+  var reveal = function (el, delay) {
+    var i = pending.indexOf(el);
+    if (i < 0) return;                       // 이미 처리함
+    pending.splice(i, 1);
+    io.unobserve(el);
+    el.style.transitionDelay = delay + 'ms';
+    el.classList.add('in');
+    setTimeout(function () { finish(el); }, delay + 1000);
+  };
   var io = new IntersectionObserver(function (entries) {
     var n = 0;
     entries.forEach(function (en) {
-      if (!en.isIntersecting) return;
-      var el = en.target, delay = Math.min(n++, 6) * 85;
-      io.unobserve(el);
-      el.style.transitionDelay = delay + 'ms';
-      el.classList.add('in');
-      setTimeout(function () { finish(el); }, delay + 1000);
+      if (en.isIntersecting) reveal(en.target, Math.min(n++, 6) * 85);
     });
   }, { rootMargin: '0px 0px -7% 0px', threshold: 0.06 });
   targets.forEach(function (el) { io.observe(el); });
-  // 안전장치: 인쇄하거나 탭이 오래 숨겨졌다 돌아와도 내용이 숨은 채 남지 않게
-  window.addEventListener('beforeprint', function () { targets.forEach(finish); });
+  // 안전장치 1: 화면에 들어온 요소는 0.6초마다 직접 확인해 반드시 나타나게 한다(관찰자 신호가 늦거나 빠져도).
+  //            이미 지나친(화면 위쪽) 요소는 움직임 없이 바로 보이게 한다.
+  var sweep = setInterval(function () {
+    if (!pending.length) { clearInterval(sweep); return; }
+    var h = window.innerHeight || root.clientHeight, n = 0;
+    pending.slice().forEach(function (el) {
+      var r = el.getBoundingClientRect();
+      if (r.bottom <= 0) { pending.splice(pending.indexOf(el), 1); io.unobserve(el); finish(el); }
+      else if (r.top < h * 0.94) reveal(el, Math.min(n++, 6) * 85);
+    });
+  }, 600);
+  // 안전장치 2: 인쇄할 때는 전부 보이게
+  window.addEventListener('beforeprint', function () { pending.slice().forEach(finish); pending.length = 0; });
 });
